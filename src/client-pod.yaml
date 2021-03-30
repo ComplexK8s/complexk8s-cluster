@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: client
-      image: docker.pkg.github.com/complexk8s/docker-kubernetes/client:0.1.0
+      image: docker.pkg.github.com/complexk8s/docker-kubernetes/client:latest
       ports:
         - containerPort: 3000
