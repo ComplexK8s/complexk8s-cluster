@@ -1,4 +1,5 @@
 # Logs
+TOKEN.txt
 logs
 *.log
 npm-debug.log*
