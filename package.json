@@ -9,6 +9,8 @@
         "hub": "docker.pkg.github.com"
       },
     "scripts": {
-      "docker:login": "cat ./TOKEN.txt | docker login https://$npm_package_docker_hub -u rsouza01 --password-stdin"
+      "docker:login": "cat ./TOKEN.txt | docker login https://$npm_package_docker_hub -u rsouza01 --password-stdin",
+      "kubectl:client": "kubectl apply -f ./src/client-pod.yaml",
+      "kubectl:node-port": "kubectl apply -f ./src/client-node-port.yaml"
     }
   }
