@@ -1,0 +1,14 @@
+{
+    "name": "complexk8s-cluster",
+    "organization": "complexk8s",
+    "gitrepo": "complexk8s-cluster",
+    "version": "1.0.0",
+    "configFileVersion": "1.0.0",
+    "description": "ComplexK8s Cluster project",
+    "docker": {
+        "hub": "docker.pkg.github.com"
+      },
+    "scripts": {
+      "docker:login": "cat ./TOKEN.txt | docker login https://$npm_package_docker_hub -u rsouza01 --password-stdin"
+    }
+  }
