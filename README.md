@@ -5,6 +5,19 @@
 
 > ComplexK8s Cluster project
 
+## Terraform Stack
+
+## Creating
+```sh
+$ terraform plan
+$ terraform apply
+```
+## Destroying
+```sh
+$ terraform destroy
+```
+
+
 ## Installing Terraform
 
 ```sh

@@ -5,7 +5,6 @@ provider aws {
 
 resource "aws_db_instance" "complexk8s" {
   allocated_storage    = 100
-#   db_subnet_group_name = "db-subnetgrp"
   engine               = "postgres"
   engine_version       = "11.5"
   identifier           = "complexk8s"
