@@ -5,6 +5,15 @@
 
 > ComplexK8s Cluster project
 
+
+## Cluster creation
+
+```sh
+$ minikube start
+$ kubectl apply -f ./src/k8s
+$ kubectl get pods
+```
+
 ## Terraform Stack
 
 ## Creating
