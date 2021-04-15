@@ -6,7 +6,7 @@
 > ComplexK8s Cluster project
 
 
-## Cluster creation
+## Cluster creation - Steps
 
 ```sh
 $ minikube start
