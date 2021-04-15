@@ -8,26 +8,34 @@
 
 ## Cluster creation - Steps
 
+
 ```sh
+$ export ENCRYPTION_KEY=<ENCRYPTION_KEY>
 $ minikube start
 $ kubectl apply -f ./src/k8s
 $ kubectl get pods
 ```
 
+## Getting the cluster IP
+```sh
+$ minikube ip
+```
+
+
 ## Terraform Stack
 
-## Creating
+### Creating
 ```sh
 $ terraform plan
 $ terraform apply
 ```
-## Destroying
+### Destroying
 ```sh
 $ terraform destroy
 ```
 
 
-## Installing Terraform
+### Installing Terraform
 
 ```sh
 $ wget https://releases.hashicorp.com/terraform/0.14.3/terraform_0.14.3_linux_amd64.zip
