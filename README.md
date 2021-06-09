@@ -71,6 +71,18 @@ $ sudo mv /tmp/eksctl /usr/local/bin
 $ eksctl version
 ```
 
+### Dashboard
+```shell
+$ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.2.0/aio/deploy/recommended.yaml
+$ kubectl proxy
+```
+
+
+http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/.  
+
+## References
+
+* [Getting Started with Amazon Elastic Kubernetes Service (EKS)] (https://medium.com/rafay-systems/getting-started-with-amazon-elastic-kubernetes-service-eks-b059cceb50a1)
 
 ## Show your support
 

@@ -10,7 +10,9 @@ fi
 
 
 # Imperative command to allow kubernetes-nginx ingress
-minikube addons enable ingress
+# minikube addons enable ingress
+
+# exit
 
 # Secrets handling
 ../../bin/handle-secret.sh -d -f ../../.secrets/.env.gpg
